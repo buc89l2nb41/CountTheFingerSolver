@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# collected answers (do not publish)
+answer/
+
+# local / IDE
+.cursor/
+.vscode/
+*.log
+.env
+.env.*
+
+# test / playwright
+test-results/
+playwright-report/
+blob-report/
+
+# dumps / local artifacts
+main.js
+page.html
+*.har

@@ -1,0 +1,26 @@
+{
+  "name": "count-the-fingers-solver",
+  "version": "1.0.0",
+  "description": "Count The Fingers Solver",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "collect": "node collect-answers.js",
+    "quick": "node index.js 3 500",
+    "analyze": "node analyze-network.js",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:devtools": "playwright test --project=chromium-devtools",
+    "open:devtools": "node scripts/open-chrome-devtools.js",
+    "click:start": "node scripts/click-game-start.js",
+    "play:answers": "node scripts/play-with-answers.js",
+    "serve": "npx --yes serve . -p 3000"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}
